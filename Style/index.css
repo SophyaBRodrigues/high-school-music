@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "bebas-neue", sans-serif;
+}
+body {
+  background-image: url(../assets/redcarpet.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130vh;
+}
+
+h2 {
+  color: #f9d68e;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 250px;
+  padding-left: 200px;
+}
