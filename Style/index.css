@@ -6,7 +6,7 @@
 }
 body {
   background-image: url(../assets/redcarpet.jpg);
-  background-position: center;
+  background-position: 10% center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 130vh;
@@ -17,5 +17,14 @@ h2 {
   text-align: left;
   font-size: 30px;
   margin-top: 250px;
-  padding-left: 200px;
+  padding-left: 230px;
+}
+
+p {
+  color: #f9d68e;
+  text-align: left;
+  font-size: 17px;
+  margin-top: 20px;
+  padding-left: 30px;
+  max-width: 648px;
 }
