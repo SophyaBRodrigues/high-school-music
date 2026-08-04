@@ -6,18 +6,43 @@
 }
 body {
   background-image: url(../assets/redcarpet.jpg);
-  background-position: 10% center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 130vh;
+  height: 150vh;
+  background-position: 20% center;
+}
+
+nav {
+  height: 122px;
+  display: flex;
+  padding-inline: 72px;
+  align-items: center;
+  gap: 32px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #c4c4cc;
+}
+
+nav ul li .ativa a {
+  color: whitesmoke;
+  font-weight: bold;
 }
 
 h2 {
   color: #f9d68e;
   text-align: left;
   font-size: 30px;
-  margin-top: 250px;
-  padding-left: 230px;
+  margin-top: 80px;
+  padding-left: 180px;
 }
 
 p {
@@ -26,5 +51,5 @@ p {
   font-size: 17px;
   margin-top: 20px;
   padding-left: 30px;
-  max-width: 648px;
+  max-width: 500px;
 }
