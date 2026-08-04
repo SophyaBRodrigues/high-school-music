@@ -8,8 +8,8 @@ body {
   background-image: url(../assets/redcarpet.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 150vh;
-  background-position: 20% center;
+  min-height: 100vh;
+  background-position: 20% top;
 }
 
 nav {
