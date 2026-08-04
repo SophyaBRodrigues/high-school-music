@@ -2,17 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "bebas-neue", sans-serif;
+  text-decoration: none;
 }
+
 body {
   background-image: url(../assets/redcarpet.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
   background-position: 20% top;
 }
 
-nav {
+header {
   height: 122px;
   display: flex;
   padding-inline: 72px;
@@ -20,36 +21,55 @@ nav {
   gap: 32px;
 }
 
-nav ul {
+ul {
   display: flex;
   list-style: none;
   gap: 32px;
 }
-
-nav ul a {
+/* O CSS que começa no header e vai até o main só está funcionando separadamente, não sei o motivo. */
+ul a {
   text-decoration: none;
   font-size: 22px;
-  color: #c4c4cc;
+  color: #c9b07f;
 }
 
-nav ul li .ativa a {
-  color: whitesmoke;
+.ativa a {
   font-weight: bold;
+  color: #f9d68e;
+}
+
+main {
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 30px;
 }
 
 h2 {
   color: #f9d68e;
   text-align: left;
   font-size: 30px;
-  margin-top: 80px;
+  margin-top: 100px;
   padding-left: 180px;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
-  color: #f9d68e;
+  color: #edd7b4;
   text-align: left;
   font-size: 17px;
   margin-top: 20px;
   padding-left: 30px;
   max-width: 500px;
+}
+
+a {
+  color: #c9b07f;
+  display: block;
+  margin-inline: auto;
+  width: fit-content;
+  text-decoration: none;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
 }
