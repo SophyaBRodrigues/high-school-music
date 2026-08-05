@@ -7,8 +7,72 @@
 
 body {
   background-image: url(../assets/redredred.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-  background-position: 20% top;
+  height: 133vh;
+}
+
+header {
+  height: 122px;
+  display: flex;
+  padding-inline: 72px;
+  align-items: center;
+  gap: 32px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+/* O CSS que começa no header e vai até o main só está funcionando separadamente, não sei o motivo. */
+ul a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #c9b07f;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ativa a {
+  font-weight: bold;
+  color: #f9d68e;
+}
+
+main {
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: 30px;
+}
+
+h1 {
+  color: #f9d68e;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+
+a {
+  color: #c9b07f;
+  display: block;
+  margin-inline: auto;
+  width: fit-content;
+  text-decoration: none;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.atores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.atores img {
+  width: 20%;
+  height: auto;
+  margin-top: 50px;
 }
