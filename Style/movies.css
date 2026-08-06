@@ -7,10 +7,10 @@
 
 body {
   background-image: url(../assets/redredred.jpg);
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 133vh;
+  background-position: 10% top;
 }
 
 header {
@@ -64,7 +64,7 @@ h1 {
 }
 
 img {
-  width: 35%;
+  width: 25%;
   height: fit-content;
   margin-top: -200px;
   align-items: right;
@@ -79,7 +79,7 @@ img {
 
 .container img {
   display: inline-block;
-  margin-top: -500px;
+  margin-top: -550px;
 }
 
 #paragrafo {
@@ -89,4 +89,18 @@ img {
   margin-top: 250px;
   padding-left: 100px;
   width: 900px;
+}
+
+.evans {
+  text-align: right;
+  height: fit-content;
+  padding-right: 400px;
+  margin-top: -160px;
+}
+
+.ryan {
+  text-align: right;
+  height: fit-content;
+  padding-right: 30px;
+  margin-top: -160px;
 }
